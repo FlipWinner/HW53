@@ -33,7 +33,6 @@ class PokerHand {
 		this.hand.forEach(hand => {
 			suit[hand.suit]++;
 			rank[hand.rank]++;
-			console.log(hand);
 		});
 
 		const suitValues = Object.values(suit);
